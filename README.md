@@ -25,3 +25,12 @@ This app generate a mp3 with a billingual senteces to help you in languaje learn
   * select a destination folder for generated files.
 
   * Memorize and fun with mp3 in Spanish and English :) !!
+
+##Maven Dependecies
+
+  * Please install this depencies ir order to compile proyect!
+
+  * linet-util
+	https://github.com/jrichardsz/libraries/tree/master/linet-util
+  * linet-swing	
+	https://github.com/jrichardsz/libraries/tree/master/linet-swing
