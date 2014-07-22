@@ -38,8 +38,8 @@ public class SimpleSpeechBot{
 
 	
 	public static void convertFile(String pathFileInput,String pathOutputFolder) throws Exception {
-		
-		BufferedReader br = new BufferedReader(new FileReader(pathFileInput));
+			
+	    BufferedReader br = new BufferedReader(new FileReader(pathFileInput));
 	    try {
 	        
 	        String line = br.readLine();
@@ -51,8 +51,8 @@ public class SimpleSpeechBot{
 	        	String[] sentences = line.split("[|]");
 	    		
 	    		Audio audio = Audio.getInstance();
-
-	    		InputStream sound = audio.getAudio(sentences[0],"es");
+	    		String sentence1 = cleanSentence(sentences[0]);
+	    		InputStream sound = audio.getAudio(sentence1,"es");
 	            
 	    		OutputStream out =  new FileOutputStream(new File(pathOutputFolder+File.separator+convertNumberToStringWhitZeros(cont, 5)+".mp3"));
 	    		IOUtils.copy(sound,out);
@@ -65,9 +65,12 @@ public class SimpleSpeechBot{
 	    			out.close();
 	    		}
 	    		
+	    		Thread.sleep(5000);
 	    		
 	    		cont++;
-	    		InputStream sound2 = audio.getAudio(sentences[1],"en");
+	    		
+	    		String sentence2 = cleanSentence(sentences[0]);
+	    		InputStream sound2 = audio.getAudio(sentence2,"en");
 	            
 	    		OutputStream out2 =  new FileOutputStream(new File(pathOutputFolder+File.separator+convertNumberToStringWhitZeros(cont, 5)+".mp3"));
 	    		IOUtils.copy(sound2,out2);
@@ -81,6 +84,7 @@ public class SimpleSpeechBot{
 	    		}
 	        	
 	            line = br.readLine();
+	            cont++;
 	        }
 	        
 	    } catch(Exception exception) {
@@ -108,22 +112,28 @@ public class SimpleSpeechBot{
         return cadena_con_ceros;
     }	
     
-	public static void main(String[] args){
-
+	public static String cleanSentence(String sentenceInitial){
+		return sentenceInitial.replaceAll("\t", "").replaceAll("\\s\\s", "");
+	}
+    
+	public static void main(String[] args) {
+		
 		try{
 			
 			String pathFileInput = FileChooserUtil.getFilePathToOpen("Enter path of file to convert..");
 			String pathOutputFolder = FileChooserUtil.getFolderPath("Enter path of folder to save converted files..");
 			convertFile(pathFileInput, pathOutputFolder);
+			JOptionPane.showMessageDialog(null, "Success Convertion", "SpeechBot", JOptionPane.ERROR_MESSAGE);
 			
 		}catch(Exception exception){
 			exception.printStackTrace();
 			StringWriter errors = new StringWriter();
 			exception.printStackTrace(new PrintWriter(errors));
-			JOptionPane.showMessageDialog(null, errors.toString(), "Error", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, errors.toString(), "SpeechBot", JOptionPane.ERROR_MESSAGE);
 			System.exit(0);
 		}
-
+		
+		
 	}
 
 }
