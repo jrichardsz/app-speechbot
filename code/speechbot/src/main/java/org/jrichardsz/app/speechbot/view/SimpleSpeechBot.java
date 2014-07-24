@@ -69,7 +69,7 @@ public class SimpleSpeechBot{
 	    		
 	    		cont++;
 	    		
-	    		String sentence2 = cleanSentence(sentences[0]);
+	    		String sentence2 = cleanSentence(sentences[1]);
 	    		InputStream sound2 = audio.getAudio(sentence2,"en");
 	            
 	    		OutputStream out2 =  new FileOutputStream(new File(pathOutputFolder+File.separator+convertNumberToStringWhitZeros(cont, 5)+".mp3"));
