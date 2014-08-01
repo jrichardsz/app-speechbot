@@ -1,21 +1,16 @@
 package org.jrichardsz.app.speechbot.view;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.io.StringWriter;
+import java.io.*;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.*;
+import org.jrichardsz.app.speechbot.controller.*;
 
-import com.gtranslate.Audio;
-import com.gtranslate.context.TranslateEnvironment;
-import com.linet.api.swing.filechooser.FileChooserUtil;
+import com.gtranslate.*;
+import com.gtranslate.context.*;
+import com.linet.api.swing.filechooser.*;
+import com.linet.api.swing.lookandfeel.*;
 
 
 public class SimpleSpeechBot{
@@ -88,7 +83,7 @@ public class SimpleSpeechBot{
 	        }
 	        
 	    } catch(Exception exception) {
-	        throw new Exception("Error when try to convert stringd to mp3.",exception);
+	        throw new Exception("Error when try to convert string to mp3.",exception);
 	    } finally{
 	    	if(br!=null){
 	    		br.close();
@@ -120,10 +115,20 @@ public class SimpleSpeechBot{
 		
 		try{
 			
-			String pathFileInput = FileChooserUtil.getFilePathToOpen("Enter path of file to convert..");
-			String pathOutputFolder = FileChooserUtil.getFolderPath("Enter path of folder to save converted files..");
-			convertFile(pathFileInput, pathOutputFolder);
-			JOptionPane.showMessageDialog(null, "Success Convertion", "SpeechBot", JOptionPane.ERROR_MESSAGE);
+			WindowUtilities.setNativeLookAndFeel();
+			
+			Object[] selectionValues = { "Sentence To Speech","Bilingual Sentence to speech"};
+		    String initialSelection = "Sentence To Speech";
+		    Object selection = JOptionPane.showInputDialog(null, "Select an option","SpeechBot", JOptionPane.QUESTION_MESSAGE, null, selectionValues, initialSelection);
+			
+		    if(selection == null){
+		    	JOptionPane.showMessageDialog(null, "Please select an option!", "SpeechBot", JOptionPane.ERROR_MESSAGE);
+		    	return;
+		    }else if(selection.equals("Sentence To Speech")){
+		    	SingleSentenceController sentenceSpeechController = new SingleSentenceController();
+		    	sentenceSpeechController.execute();
+		    }
+			
 			
 		}catch(Exception exception){
 			exception.printStackTrace();
