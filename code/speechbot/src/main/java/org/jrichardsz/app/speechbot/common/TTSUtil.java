@@ -179,6 +179,9 @@ public class TTSUtil{
         	if(streamToAppend!=null){
         		streamToAppend.close();
         	}        	
+        	if(finalMp3Stream!=null){
+        		finalMp3Stream.close();
+        	}        	
         }
 		
 	}	

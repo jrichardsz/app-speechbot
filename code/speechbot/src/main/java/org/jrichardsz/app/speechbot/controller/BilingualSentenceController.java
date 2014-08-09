@@ -5,7 +5,6 @@ import java.util.*;
 
 import javax.swing.*;
 
-import org.jrichardsz.app.speechbot.common.*;
 import org.jrichardsz.app.speechbot.core.*;
 
 import com.linet.api.swing.filechooser.*;
