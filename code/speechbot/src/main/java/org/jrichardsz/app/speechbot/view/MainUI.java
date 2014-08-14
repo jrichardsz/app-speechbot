@@ -4,14 +4,17 @@ import java.awt.*;
 
 import javax.swing.*;
 import javax.swing.border.*;
-import javax.swing.GroupLayout.Alignment;
 
 public class MainUI extends JFrame{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID=1L;
 	private JPanel contentPane;
 	private JTextField textFieldConvertFilePath;
 	private JTextField textFieldConvertWriteText;
-	private final ButtonGroup buttonGroupInputMode = new ButtonGroup();
+	private final ButtonGroup buttonGroupConvertInputMode = new ButtonGroup();
 	private JTextField textFieldConvertOutputFolder;
 	private JTextField textFieldTranslateOutputFolder;
 	private JTextField textFieldTranslateFilePath;
@@ -19,6 +22,10 @@ public class MainUI extends JFrame{
 	private JTextField textFieldJoinFirstFilePath;
 	private JTextField textFieldJoinSecondFilePath;
 	private JTextField textFieldJoinOutoutFolder;
+	private final ButtonGroup buttonGroupConvertOutputMode = new ButtonGroup();
+	private final ButtonGroup buttonGroupTranslateInputMode = new ButtonGroup();
+	private final ButtonGroup buttonGroupTranslateOutputMode = new ButtonGroup();
+	private final ButtonGroup buttonGroupJoinOutputMode = new ButtonGroup();
 
 	/**
 	 * Launch the application.
@@ -41,6 +48,7 @@ public class MainUI extends JFrame{
 	 * Create the frame.
 	 */
 	public MainUI(){
+		setTitle("Speech Bot");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100,100,451,438);
 		contentPane=new JPanel();
@@ -56,7 +64,7 @@ public class MainUI extends JFrame{
 		panelConvertToMp3.setLayout(null);
 		
 		JRadioButton rdbtnConvertFromFile = new JRadioButton("From File");
-		buttonGroupInputMode.add(rdbtnConvertFromFile);
+		buttonGroupConvertInputMode.add(rdbtnConvertFromFile);
 		rdbtnConvertFromFile.setBounds(6, 7, 415, 23);
 		panelConvertToMp3.add(rdbtnConvertFromFile);
 		
@@ -76,7 +84,7 @@ public class MainUI extends JFrame{
 		panel.add(buttonConvertBrowseFile);
 		
 		JRadioButton rdbtnConvertWrite = new JRadioButton("Write Words");
-		buttonGroupInputMode.add(rdbtnConvertWrite);
+		buttonGroupConvertInputMode.add(rdbtnConvertWrite);
 		rdbtnConvertWrite.setBounds(6, 94, 415, 23);
 		panelConvertToMp3.add(rdbtnConvertWrite);
 		
@@ -96,11 +104,13 @@ public class MainUI extends JFrame{
 		panelConvertToMp3.add(separator);
 		
 		JRadioButton radioButtonConvertSingleFile = new JRadioButton("Single File with all sentences");
+		buttonGroupConvertOutputMode.add(radioButtonConvertSingleFile);
 		radioButtonConvertSingleFile.setSelected(true);
 		radioButtonConvertSingleFile.setBounds(6, 180, 209, 23);
 		panelConvertToMp3.add(radioButtonConvertSingleFile);
 		
 		JRadioButton radioButtonConvertSeveralFiles = new JRadioButton("Several files ( each sentence )");
+		buttonGroupConvertOutputMode.add(radioButtonConvertSeveralFiles);
 		radioButtonConvertSeveralFiles.setBounds(217, 180, 211, 23);
 		panelConvertToMp3.add(radioButtonConvertSeveralFiles);
 		
@@ -131,11 +141,13 @@ public class MainUI extends JFrame{
 		panelTranslateToMp3.add(separator_2);
 		
 		JRadioButton radioButtonTranslateSingleFile = new JRadioButton("Single File with all sentences");
+		buttonGroupTranslateOutputMode.add(radioButtonTranslateSingleFile);
 		radioButtonTranslateSingleFile.setSelected(true);
 		radioButtonTranslateSingleFile.setBounds(6, 232, 171, 23);
 		panelTranslateToMp3.add(radioButtonTranslateSingleFile);
 		
 		JRadioButton radioButtonTranslateSeveralFiles = new JRadioButton("Several files ( each sentence )");
+		buttonGroupTranslateOutputMode.add(radioButtonTranslateSeveralFiles);
 		radioButtonTranslateSeveralFiles.setBounds(198, 232, 201, 23);
 		panelTranslateToMp3.add(radioButtonTranslateSeveralFiles);
 		
@@ -167,6 +179,7 @@ public class MainUI extends JFrame{
 		panelTranslateToMp3.add(lblLanguaje);
 		
 		JRadioButton radioButtonTranslateFromFile = new JRadioButton("From File");
+		buttonGroupTranslateInputMode.add(radioButtonTranslateFromFile);
 		radioButtonTranslateFromFile.setBounds(6, 7, 415, 23);
 		panelTranslateToMp3.add(radioButtonTranslateFromFile);
 		
@@ -186,6 +199,7 @@ public class MainUI extends JFrame{
 		panel_2.add(buttonTranslateBrowseFile);
 		
 		JRadioButton radioButtonTranslateWrite = new JRadioButton("Write Words");
+		buttonGroupTranslateInputMode.add(radioButtonTranslateWrite);
 		radioButtonTranslateWrite.setBounds(6, 94, 415, 23);
 		panelTranslateToMp3.add(radioButtonTranslateWrite);
 		
@@ -267,11 +281,13 @@ public class MainUI extends JFrame{
 		panelJoinLanguajes.add(separator_4);
 		
 		JRadioButton radioButtonJoinSingleFile = new JRadioButton("Single File with all sentences");
+		buttonGroupJoinOutputMode.add(radioButtonJoinSingleFile);
 		radioButtonJoinSingleFile.setSelected(true);
 		radioButtonJoinSingleFile.setBounds(-1, 244, 209, 23);
 		panelJoinLanguajes.add(radioButtonJoinSingleFile);
 		
 		JRadioButton radioButtonJoinSeveralFiles = new JRadioButton("Several files ( each sentence )");
+		buttonGroupJoinOutputMode.add(radioButtonJoinSeveralFiles);
 		radioButtonJoinSeveralFiles.setBounds(210, 244, 211, 23);
 		panelJoinLanguajes.add(radioButtonJoinSeveralFiles);
 		
@@ -292,5 +308,18 @@ public class MainUI extends JFrame{
 		JButton buttonJoinBrowseOutputFolder = new JButton("...");
 		buttonJoinBrowseOutputFolder.setBounds(355, 315, 62, 23);
 		panelJoinLanguajes.add(buttonJoinBrowseOutputFolder);
+		
+		this.addWindowListener(new java.awt.event.WindowAdapter() {
+		    @Override
+		    public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+		        
+		    	JPanel panel=new JPanel();
+				JTextField jTextField = new JTextField("https://github.com/jrichardsz/app-speechbot");
+				panel.add(jTextField);
+		    	
+				JOptionPane.showMessageDialog(null,panel,"Developer : JRichardsz :{)",JOptionPane.INFORMATION_MESSAGE);
+		    	System.exit(0);
+		    }
+		});
 	}
 }
