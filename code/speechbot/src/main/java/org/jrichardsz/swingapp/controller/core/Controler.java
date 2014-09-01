@@ -14,8 +14,8 @@ import org.jrichardsz.swingapp.view.core.*;
  */
 public abstract class Controler implements IControler,ActionListener{
 	
-    public Controler(View translatorUI) {
-        this.view = translatorUI;
+    public Controler(View view) {
+        this.view = view;
         assignInstancesOfView();
         initializeFunctionalityActionListener();
         setup();

@@ -5,19 +5,19 @@ import org.jrichardsz.app.speechbot.view.*;
 
 public class ControllerFactory{
 	
-	public ControllerFactory(SpeechBotUI speechBotUI ){
-		gui = speechBotUI;
+	public ControllerFactory(MainUI mainUI ){
+		gui = mainUI;
 	}
 	
 	public void init() {
-		 guiController = new GuiController(gui);
+//		 guiController = new GuiController(gui);
 	}
 
-	public SpeechBotUI getGui(){
+	public MainUI getGui(){
 		return gui;
 	}
 
-	public void setGui(SpeechBotUI gui){
+	public void setGui(MainUI gui){
 		this.gui=gui;
 	}
 
@@ -29,11 +29,7 @@ public class ControllerFactory{
 		this.guiController=guiController;
 	}
 
-
-
-
-
-	private SpeechBotUI gui;
-	 private GuiController guiController;
+	private MainUI gui;
+	private GuiController guiController;
 	
 }

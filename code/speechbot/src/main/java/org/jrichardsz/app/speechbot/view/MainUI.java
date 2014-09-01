@@ -1,19 +1,22 @@
 package org.jrichardsz.app.speechbot.view;
 
 import java.awt.*;
+import java.awt.event.*;
+import java.util.Map.Entry;
 
 import javax.swing.*;
 import javax.swing.border.*;
 
-public class MainUI extends JFrame{
+import org.jrichardsz.swingapp.view.core.*;
+
+public class MainUI extends View implements ActionListener{
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID=1L;
 	private JPanel contentPane;
-	private JTextField textFieldConvertFilePath;
-	private JTextField textFieldConvertWriteText;
+
 	private final ButtonGroup buttonGroupConvertInputMode = new ButtonGroup();
 	private JTextField textFieldConvertOutputFolder;
 	private JTextField textFieldTranslateOutputFolder;
@@ -26,28 +29,28 @@ public class MainUI extends JFrame{
 	private final ButtonGroup buttonGroupTranslateInputMode = new ButtonGroup();
 	private final ButtonGroup buttonGroupTranslateOutputMode = new ButtonGroup();
 	private final ButtonGroup buttonGroupJoinOutputMode = new ButtonGroup();
+	
+	//first tab
+	private JRadioButton rdbtnConvertWrite;
+	private JTextField textFieldConvertWriteText;
+	private JRadioButton rdbtnConvertFromFile;
+	private JButton buttonConvertBrowseFile;
+	private JTextField textFieldConvertFilePath;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args){
-		EventQueue.invokeLater(new Runnable(){
-			public void run(){
-				try{
-					MainUI frame=new MainUI();
-					frame.setVisible(true);
-				}
-				catch(Exception e){
-					e.printStackTrace();
-				}
-			}
-		});
+	@Override
+	public void initComponents(){
 	}
 
+	@Override
+	public void setup(){
+	}
+	
 	/**
 	 * Create the frame.
 	 */
 	public MainUI(){
+		
+		setResizable(false);
 		setTitle("Speech Bot");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100,100,451,438);
@@ -63,7 +66,8 @@ public class MainUI extends JFrame{
 		tabbedPane.addTab("Convert to mp3", null, panelConvertToMp3, null);
 		panelConvertToMp3.setLayout(null);
 		
-		JRadioButton rdbtnConvertFromFile = new JRadioButton("From File");
+		rdbtnConvertFromFile = new JRadioButton("From File");
+		rdbtnConvertFromFile.addActionListener(this);
 		buttonGroupConvertInputMode.add(rdbtnConvertFromFile);
 		rdbtnConvertFromFile.setBounds(6, 7, 415, 23);
 		panelConvertToMp3.add(rdbtnConvertFromFile);
@@ -74,16 +78,18 @@ public class MainUI extends JFrame{
 		panel.setLayout(null);
 		
 		textFieldConvertFilePath = new JTextField();
+		textFieldConvertFilePath.setName("textFieldConvertFilePath");
 		textFieldConvertFilePath.setFont(new Font("Serif", Font.PLAIN, 12));
 		textFieldConvertFilePath.setColumns(10);
 		textFieldConvertFilePath.setBounds(10, 12, 329, 25);
 		panel.add(textFieldConvertFilePath);
 		
-		JButton buttonConvertBrowseFile = new JButton("...");
+		buttonConvertBrowseFile = new JButton("...");
 		buttonConvertBrowseFile.setBounds(350, 11, 62, 23);
 		panel.add(buttonConvertBrowseFile);
 		
-		JRadioButton rdbtnConvertWrite = new JRadioButton("Write Words");
+		rdbtnConvertWrite = new JRadioButton("Write Words");
+		rdbtnConvertWrite.addActionListener(this);
 		buttonGroupConvertInputMode.add(rdbtnConvertWrite);
 		rdbtnConvertWrite.setBounds(6, 94, 415, 23);
 		panelConvertToMp3.add(rdbtnConvertWrite);
@@ -94,6 +100,7 @@ public class MainUI extends JFrame{
 		panelConvertToMp3.add(panel_1);
 		
 		textFieldConvertWriteText = new JTextField();
+		textFieldConvertWriteText.setName("textFieldConvertWriteText");
 		textFieldConvertWriteText.setFont(new Font("Serif", Font.PLAIN, 12));
 		textFieldConvertWriteText.setColumns(10);
 		textFieldConvertWriteText.setBounds(10, 12, 395, 25);
@@ -317,9 +324,39 @@ public class MainUI extends JFrame{
 				JTextField jTextField = new JTextField("https://github.com/jrichardsz/app-speechbot");
 				panel.add(jTextField);
 		    	
-				JOptionPane.showMessageDialog(null,panel,"Developer : JRichardsz :{)",JOptionPane.INFORMATION_MESSAGE);
+				JOptionPane.showMessageDialog(null,panel,"By : JRichardsz",JOptionPane.INFORMATION_MESSAGE);
 		    	System.exit(0);
 		    }
 		});
+		
+		addComponents();
+		
+		for(Entry<String,Component> entry : contextComponents.entrySet()){
+			System.out.println(entry.getKey()+":"+entry.getValue().getClass());
+		}
+		
+		
 	}
+
+	@Override
+	public void actionPerformed(ActionEvent e){
+		if(e.getSource() == rdbtnConvertFromFile){
+			if(rdbtnConvertFromFile.isSelected()){
+				textFieldConvertWriteText.setEnabled(false);
+				textFieldConvertFilePath.setEnabled(true);
+				buttonConvertBrowseFile.setEnabled(true);
+			}
+		}else if(e.getSource() == rdbtnConvertWrite){
+			if(rdbtnConvertWrite.isSelected()){
+				textFieldConvertFilePath.setEnabled(false);
+				buttonConvertBrowseFile.setEnabled(false);
+				textFieldConvertWriteText.setEnabled(true);
+			}
+			
+		}
+		
+	}
+	
+	
+	
 }

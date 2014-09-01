@@ -9,5 +9,6 @@ public interface IView {
     
 	public void initComponents();
 	public void setup();
+	public void addComponents();
     
 }

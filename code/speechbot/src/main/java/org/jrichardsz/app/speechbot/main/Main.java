@@ -2,12 +2,13 @@ package org.jrichardsz.app.speechbot.main;
 
 import java.awt.*;
 
+import javax.swing.*;
+
 import org.jrichardsz.app.speechbot.common.*;
 import org.jrichardsz.app.speechbot.view.*;
 import org.jrichardsz.swingapp.controller.core.*;
 
 import com.gtranslate.context.*;
-import com.linet.api.swing.lookandfeel.*;
 
 public class Main{
 
@@ -33,8 +34,8 @@ public class Main{
 			public void run(){
 				try{
 					
-					WindowUtilities.setNimbusLookAndFeel();
-					SpeechBotUI gui = new SpeechBotUI();
+					UIManager.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
+					MainUI gui = new MainUI();
 					gui.setVisible(true);
 					
 					ControllerFactory controllerFactory = new ControllerFactory(gui);
