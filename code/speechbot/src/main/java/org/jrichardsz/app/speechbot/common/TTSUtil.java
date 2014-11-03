@@ -149,7 +149,12 @@ public class TTSUtil{
 		
 		InputStream streamToAppend = null;
 		FileOutputStream finalMp3Stream = null;
-		String pathMp3FinalFile = pathToCreateFile+File.separator+"mp3_created.mp3";
+		String nameFile = FileUtil.getNameFromPathFile(pathOfFileSentences);
+		nameFile = nameFile.replace("."+FileUtil.getFormatFromPathFile(pathOfFileSentences),"");
+		
+		String pathMp3FinalFile = pathToCreateFile+File.separator+nameFile+".mp3";
+		
+		String sentence=null;
 		
 		try{
 			
@@ -157,11 +162,23 @@ public class TTSUtil{
 			
 			for(int a=0; a< fileOfSentences.size() ;a++){
 				
-				String sentence = fileOfSentences.get(a);
+				sentence = fileOfSentences.get(a);
 				
 				sentence = StringUtil.cleanSentence(sentence);
 				
+				if(sentence!=null && sentence.length()==0){
+					continue;
+				}
+				
+				if(sentence!=null && sentence.length()>90){
+					throw new Exception("sentence is too long. Please split it in 2 senteces.");
+				}
+				
 				streamToAppend = audio.getAudio(sentence,languaje);
+				
+				if(streamToAppend==null){
+			        throw new Exception("get audio return null.");
+				}
 				
 				if(a==0){
 					finalMp3Stream = initializeFinalFile(pathMp3FinalFile,streamToAppend);
@@ -173,7 +190,7 @@ public class TTSUtil{
 			
 		}
 		catch(Exception exception) {
-		        throw new Exception("Error when try to convert file of join sentences to unique mp3.",exception);
+		        throw new Exception("Error when try to convert file of join sentences to unique mp3. Sentence :"+sentence,exception);
 		}finally{
         	
         	if(streamToAppend!=null){

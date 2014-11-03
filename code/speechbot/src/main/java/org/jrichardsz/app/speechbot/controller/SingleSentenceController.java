@@ -22,7 +22,7 @@ public class SingleSentenceController implements TTSController{
 		
 		try{
 			
-			String pathOfFileSentences = FileChooserUtil.getFilePathToOpen("Enter path of file whit sentences to convert..");
+			String pathOfFileSentences = FileChooserUtil.getFilePathToOpen("Enter path of file whit sentences to convert..", "txt");
 			String languajeValue = askLanguaje();
 			String pathToCreateFile = FileChooserUtil.getFolderPath("Enter path of folder to save converted files..");
 			

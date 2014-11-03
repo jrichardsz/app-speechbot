@@ -1,0 +1,635 @@
+Personal pronouns
+I 		
+you 	
+he 		
+she 	
+it 		
+we 		
+you 	
+they 	
+
+Possessive adjectives
+my 		
+your 	
+his 	
+her 	
+its 	
+our 	
+your 	
+their 	
+
+Possessive pronouns 
+mine 	
+yours 	
+his 	
+hers 	
+its 	
+ours 	
+yours 	
+theirs 	
+
+Reflexive pronouns
+myself 		
+yourself 	
+himself 	
+herself 	
+itself 		
+ourselves 	
+yourselves 	
+themselves 	
+
+Object pronouns
+me
+you
+him
+her
+it
+us
+you
+them
+
+Personal pronouns
+I 		
+you 	
+he 		
+she 	
+it 		
+we 		
+you 	
+they 	
+
+Possessive adjectives
+my 		
+your 	
+his 	
+her 	
+its 	
+our 	
+your 	
+their 	
+
+Possessive pronouns 
+mine 	
+yours 	
+his 	
+hers 	
+its 	
+ours 	
+yours 	
+theirs 	
+
+Reflexive pronouns
+myself 		
+yourself 	
+himself 	
+herself 	
+itself 		
+ourselves 	
+yourselves 	
+themselves 	
+
+Object pronouns
+me
+you
+him
+her
+it
+us
+you
+them
+
+Personal pronouns
+I 		
+you 	
+he 		
+she 	
+it 		
+we 		
+you 	
+they 	
+
+Possessive adjectives
+my 		
+your 	
+his 	
+her 	
+its 	
+our 	
+your 	
+their 	
+
+Possessive pronouns 
+mine 	
+yours 	
+his 	
+hers 	
+its 	
+ours 	
+yours 	
+theirs 	
+
+Reflexive pronouns
+myself 		
+yourself 	
+himself 	
+herself 	
+itself 		
+ourselves 	
+yourselves 	
+themselves 	
+
+Object pronouns
+me
+you
+him
+her
+it
+us
+you
+them
+
+Personal pronouns
+I 		
+you 	
+he 		
+she 	
+it 		
+we 		
+you 	
+they 	
+
+Possessive adjectives
+my 		
+your 	
+his 	
+her 	
+its 	
+our 	
+your 	
+their 	
+
+Possessive pronouns 
+mine 	
+yours 	
+his 	
+hers 	
+its 	
+ours 	
+yours 	
+theirs 	
+
+Reflexive pronouns
+myself 		
+yourself 	
+himself 	
+herself 	
+itself 		
+ourselves 	
+yourselves 	
+themselves 	
+
+Object pronouns
+me
+you
+him
+her
+it
+us
+you
+them
+
+Personal pronouns
+I 		
+you 	
+he 		
+she 	
+it 		
+we 		
+you 	
+they 	
+
+Possessive adjectives
+my 		
+your 	
+his 	
+her 	
+its 	
+our 	
+your 	
+their 	
+
+Possessive pronouns 
+mine 	
+yours 	
+his 	
+hers 	
+its 	
+ours 	
+yours 	
+theirs 	
+
+Reflexive pronouns
+myself 		
+yourself 	
+himself 	
+herself 	
+itself 		
+ourselves 	
+yourselves 	
+themselves 	
+
+Object pronouns
+me
+you
+him
+her
+it
+us
+you
+them
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
+Personal pronouns 		I 		
+Possessive adjectives 	my 		
+Possessive pronouns 		mine 	
+Reflexive pronouns 		myself 		
+Object pronouns	me
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourself 	
+Object pronouns	you
+	
+Personal pronouns 		he		
+Possessive adjectives 	his 	
+Possessive pronouns 		his 	
+Reflexive pronouns 		himself 	
+Object pronouns	him
+	
+Personal pronouns 		she 	
+Possessive adjectives 	her 	
+Possessive pronouns 		hers 	
+Reflexive pronouns 		herself 	
+Object pronouns	her
+	
+Personal pronouns 		it 		
+Possessive adjectives 	its 	
+Possessive pronouns 		its 	
+Reflexive pronouns 		itself 		
+Object pronouns	it
+	
+Personal pronouns 		we 		
+Possessive adjectives 	our 	
+Possessive pronouns 		ours 	
+Reflexive pronouns 		ourselves 	
+Object pronouns	us
+	
+Personal pronouns 		you 	
+Possessive adjectives 	your 	
+Possessive pronouns 		yours 	
+Reflexive pronouns 		yourselves 	
+Object pronouns	you
+	
+Personal pronouns 		they 	
+Possessive adjectives 	their 	
+Possessive pronouns 		theirs 	
+Reflexive pronouns 		themselves 	
+Object pronouns	them
+
