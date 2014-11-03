@@ -2,7 +2,14 @@ Possessive Pronouns
 
 Definition
 
-    A possessive pronoun is a part of speech that attributes ownership to someone or something. Like any other pronoun, it substitutes a noun phrase and can prevent its repetition. For example, in the phrase, "These glasses are mine, not yours", the words "mine" and "yours" are possessive pronouns and stand for "my glasses" and "your glasses," respectively.
+    A possessive pronoun is a part of speech that attributes 
+	ownership to someone or something. 
+	Like any other pronoun, it substitutes a noun phrase and 
+	can prevent its repetition. 
+	For example, in the phrase, 
+	"These glasses are mine, not yours", the words "mine" and "yours" 
+	are possessive pronouns and stand for "my glasses" 
+	and "your glasses," respectively.
 
 Examples
 
@@ -11,23 +18,13 @@ Examples
     This is my bedroom. It's mine.
     This is my brother's bike. It's his.
 	
-Subject Pronouns 	I 	you 	he 	she 	it 	we 	you 	they
-Possessive 	Adjectives 	my 	your 	his 	her 	its 	our 	your 	their
-Possessive Pronouns 	mine 	yours 	his 	hers 	its 	ours 	yours 	theirs
+Subject Pronouns 	I,you,he,she,it,we,you,they
+Possessive 	Adjectives 	my,your,his,her,its,our,your,their
+Possessive Pronouns 	mine,yours,his,hers,its,ours,yours,theirs
 
-Subject Pronouns 	I 	you 	he 	she 	it 	we 	you 	they
-Possessive 	Adjectives 	my 	your 	his 	her 	its 	our 	your 	their
-Possessive Pronouns 	mine 	yours 	his 	hers 	its 	ours 	yours 	theirs
-
-Subject Pronouns 	I 	you 	he 	she 	it 	we 	you 	they
-Possessive 	Adjectives 	my 	your 	his 	her 	its 	our 	your 	their
-Possessive Pronouns 	mine 	yours 	his 	hers 	its 	ours 	yours 	theirs
-
-Subject Pronouns 	I 	you 	he 	she 	it 	we 	you 	they
-Possessive 	Adjectives 	my 	your 	his 	her 	its 	our 	your 	their
-Possessive Pronouns 	mine 	yours 	his 	hers 	its 	ours 	yours 	theirs
-
-    The words "mine, yours, his, hers, its , ours, theirs" are possessive pronouns. They show who or what something belongs to.
+    The words "mine, yours, his, hers, its , ours, theirs" 
+	are possessive pronouns. 
+	They show who or what something belongs to.
 
 Note
 
@@ -37,12 +34,16 @@ Note
 
         What color is your brother's jacket?
         His jacket is black.
-        (your and his are possessive adjectives; your and his modify the noun jacket in both examples)
+        (your and his are possessive adjectives; your and his modify the 
+		noun jacket in both examples)
         What color is yours?
         Mine is blue.
-        (yours and mine are possessive pronouns - yours functions as a subject complement in the first example; mine functions as a subject in the second example)
+        (yours and mine are possessive pronouns - yours functions as a
+		subject complement in the first example; mine functions as a 
+		subject in the second example)
 
-    2. "It's" is not a possessive pronoun or adjective; it is a contraction of it is or it has.
+    2. "It's" is not a possessive pronoun or adjective; 
+	it is a contraction of it is or it has.
 
     Example:
 
@@ -51,7 +52,9 @@ Note
 
 Possessive Pronouns: Used in Sentences
 
-Possessive pronouns include my, mine, our, ours, its, his, her, hers, their, theirs, your, yours, whose, and one's - all words that demonstrate ownership.
+Possessive pronouns include 
+my, mine, our, ours, its, his, her, hers, their, theirs, 
+your, yours, whose, and one's - all words that demonstrate ownership.
 
 Here are some examples of possessive pronouns used in sentences:
 

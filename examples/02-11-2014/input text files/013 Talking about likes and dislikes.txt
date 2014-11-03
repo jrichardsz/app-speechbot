@@ -56,14 +56,18 @@ I don't mind	VERB+ING
     Examples:
 
         "Do you mind playing football?"
-        "No, I don't mind."(Although it's in a negative form, it means that it's ok for me. I neither love it nor hate it.)
+        "No, I don't mind."
+		(Although it's in a negative form, it means that it's ok for me. 
+		I neither love it nor hate it.)
 
 Dialogue:
 
-    Steve is at home. His girlfriend comes in...Notice how they express their likes and dislikes 
+    Steve is at home. His girlfriend comes in...
+	Notice how they express their likes and dislikes 
 	
 Steve: 	Hello, darling. Do you fancy watching a film tonight?
-Girlfriend: 	Oh, no thanks, I don't really feel like watching a film tonight. How about going out instead.
+Girlfriend: 	Oh, no thanks, I don't really feel like watching a film tonight. 
+How about going out instead.
 Steve: 	OK. Do you feel like going to the theater?
 Girlfriend: 	Oh, no. I hate it. Do you like eating at the new Chinese restaurant?
 Steve: 	I don't mind. The Chinese cuisine is alright.
@@ -92,7 +96,8 @@ Ceci enjoys listening to music (she enjoys listening to music).
 
 Rakesh likes travelling (he likes travelling).
 
-The table below shows how to form simple sentences to express likes and dislikes, using the present simple tense.
+The table below shows how to form simple sentences to express likes and dislikes, 
+using the present simple tense.
 
 Positive statements (likes)
 

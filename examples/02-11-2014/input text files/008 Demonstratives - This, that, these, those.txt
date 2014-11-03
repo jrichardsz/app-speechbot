@@ -1,7 +1,8 @@
 Demonstratives - This, that, these, those
 What are demonstratives?
 
-    Demonstratives are words that show which person or thing is being referred to. In the sentence:
+    Demonstratives are words that show which person or thing is being referred to. 
+	In the sentence:
 
         'This is my brother',
 
@@ -12,16 +13,20 @@ What are demonstratives?
 Demonstrative pronouns vs demonstrative adjectives
 
     A distinction must be made between demonstrative 
-	adjectives (or demonstrative determiners) and demonstrative pronouns (or independent demonstratives).
+	adjectives (or demonstrative determiners) and 
+	demonstrative pronouns (or independent demonstratives).
 
     A demonstrative adjective modifies a noun:
 
-        This apple is good. I like those houses. (This modifies 'apple' and those modifies 'houses')
+        This apple is good. I like those houses. 
+		(This modifies 'apple' and those modifies 'houses')
 
-    A demonstrative pronoun stands on its own, replacing rather than modifying a noun:
+    A demonstrative pronoun stands on its own, 
+	replacing rather than modifying a noun:
 
         This is good. I like those. 
-		(This and those don't modify any nouns they stand alone and replace other nouns)
+		(This and those don't modify any nouns they 
+		stand alone and replace other nouns)
 
 Use of demonstratives
 
