@@ -36,3 +36,9 @@ This app generate a mp3 with a billingual senteces to help you in languaje learn
 	https://github.com/jrichardsz/libraries/tree/master/linet-swing
   * java-google-translate-text-to-speech
 	https://github.com/jrichardsz/lib-java-google-translate-text-to-speech/tree/master/code/java-google-translate-text-to-speech
+
+##MP3 Generated
+
+  * Be free to use my own mp3 files.
+  * This files was generated with this code.
+  * Some error in mp3 or senteces, please notify me.
