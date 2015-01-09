@@ -39,7 +39,7 @@ This app generate a mp3 with a billingual senteces to to help you to practice yo
 
 ##MP3 Generated
 
-  *https://github.com/jrichardsz/app-speechbot/tree/master/examples/02-11-2014
+  https://github.com/jrichardsz/app-speechbot/tree/master/examples/02-11-2014
   * Be free to use my own mp3 files.
   * This files was generated with this code.
   * Some error in mp3 or senteces, please notify me.
